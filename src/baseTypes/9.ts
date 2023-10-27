@@ -20,4 +20,6 @@ const page2 = {
   status: 'close',
 }
 
+type Page: page1
+
 export {};
