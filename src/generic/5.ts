@@ -3,8 +3,8 @@
   Використовуйте generics, щоб цей інтерфейс міг працювати з будь-якими типами ключів та значень.
 */
 
-interface KeyValuePair<T, K> {
-  key: K;
+interface KeyValuePair<T> {
+  key: string;
   value: T;
 }
 
